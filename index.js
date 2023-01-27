@@ -20,12 +20,10 @@ const getReviewsForPage = async (pageNum = 1) => {
       const title = item.querySelector(
         '[data-service-review-title-typography="true"]'
       ).textContent;
-      console.log("title: ", title);
 
       const body = item.querySelector(
         '[data-service-review-text-typography="true"]'
       ).textContent;
-      console.log("body: ", body);
 
       const date = item
         .querySelector(
