@@ -1,4 +1,3 @@
-import puppeteer from "puppeteer";
 import fetch from "node-fetch";
 
 const PAGE_URL = "https://www.trustpilot.com/review/remitly.com";
