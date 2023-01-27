@@ -2,7 +2,14 @@
 
 - Hard coded to only use 5 pages, but I am retrieving and logging the total page count
 - was able to use specific data attributes on all the properties instead of the brittle string parsing I had mentioned
-- I attempted to use the API that from the network tab but it eventually began redirecting me to the actual web page and returning HTML instead of JSON
+- I attempted to use the API that from the network tab but it eventually began redirecting me to the actual web page and returning HTML instead of JSON with the error bellow. But when it didnt return that, the implementation and mapping should return the same as the `index.js`
+
+```JSON
+ {
+  "__N_REDIRECT": "/review/remitly.com",
+  "__N_REDIRECT_STATUS": 308
+}
+```
 
 # Result
 
